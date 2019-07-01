@@ -18,7 +18,7 @@ func main() {
  |        |
 (| Winner |)
  | Winner |
- | Chiken |
+ | Chicken |
  | Dinner |
   \      /
    _|__|_`)
