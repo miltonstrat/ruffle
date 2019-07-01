@@ -8,17 +8,18 @@ import (
 
 func main() {
 
-	b := []string{"Gabriel reis", "Caroline Santos", "Sergio Panaka", "Anderson", "Claudio Furini", "Gabriel Casteglioni", "Bruno Casteluci", "Katarine Leal", "Edson Junior", "Rafael Dias", "Lucio Charallo", "Flavio Muniz", "Rodrigo Moraes", "Yuri Levenhagen"}
+	b := []string{"Name1", "Name2", "Name3", "Name4"}
 	rand.Seed(time.Now().UnixNano())
 	rand.Shuffle(len(b), func(i, j int) { b[i], b[j] = b[j], b[i] })
-	fmt.Println("The t-shirt goes to", b[1])
-	fmt.Println("The agenda 1 goes to", b[2])
-	fmt.Println("The agenda 2 goes to", b[3])
-	fmt.Println("The webcam cover goes to", b[4])
+	fmt.Println("Prize 1 goes to", b[0])
+	fmt.Println("Prize 2 goes to", b[1])
+	fmt.Println("Prize 3 goes to", b[2])
 	fmt.Println(`  _______
  |        |
-(| Pipefy |)
- |        |
+(| Winner |)
+ | Winner |
+ | Chiken |
+ | Dinner |
   \      /
    _|__|_`)
 
